@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Counter from "./components/Counter";
+import ComplexCounter from "./components/practice/ComplexCounter"
 
 export default function App() {
   return (
     <Fragment>
-      <Counter />
+      <ComplexCounter/>
     </Fragment>
   );
 }
